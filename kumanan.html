@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<div class="kodfun-galeri"> 
+    
+    <div style="background-image: url('chennai beah.jpg');"></div>
+     <div style="background-image: url('mahabalipuram-2779562_640.jpg');"></div>
+     <div style="background-image: url('KOVALAM BEACH.jpg');"></div>
+    <div style="background-image: url('besant nagar.jpg');"></div>
+    <hr>
+    
+    
+</div>
+<style>
+    .kodfun-galeri{
+        display: flex;
+        height: 20rem;
+        width: 50rem;
+        gap: 1rem;
+    }
+    .kodfun-galeri > div
+    {
+     flex: 1;
+     border-radius: 1rem;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: auto 100%;
+     transition: all .8s cubic-bezier(.25, .4, .45, .1,4);
+   }
+   .kodfun-galeri > div:hover
+   {
+    flex: 5;
+   }
+</style>
+</html>
